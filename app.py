@@ -3,8 +3,8 @@ import google.generativeai as genai
 from openai import OpenAI
 from streamlit_carousel import carousel
 
-genai.configure(api_key="AIzaSyA8TesjTLzuqovktzzhu4Vvdo3F0Tbcpvc")
-client = OpenAI(api_key="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")
+genai.configure(api_key="API KEy")
+client = OpenAI(api_key="API_Key")
 
 
 singel_image=dict(
